@@ -1,0 +1,173 @@
+*:root {
+    --fundo-principal: #f9f6f2;
+    --fundo-secundario: #eee5cc;
+    --botoes: #a3b18a;
+    --detalhes: #b08968;
+    --texto-escuro: #7f5539;
+    --texto-claro: #fafaf8;
+    --bege: #e8d8c3;
+    --verde: #718355;
+    --marrom: #a47c48;
+    --verde-folha: #b5c99a;
+    --marrom-cafe: #4b3832;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bege);
+    color: var(--marrom-cafe);
+    line-height: 1.6;
+    
+}
+
+header {
+    background-color: var(--marrom);
+    color: var(--texto-claro);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a {
+    color: var(--marrom-cafe);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: var(--botoes);
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quem-somos {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+section.missao-visao-valores {
+    display: flex;
+    justify-content: center
+}
+
+.missao-visao-valores div {
+    background-color: var(--botoes);
+    border: 2px solid var(--marrom-cafe);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+
+}
+
+section.resgates-marcantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.resgate-Apollo  {
+    background-color: var(--fundo-secundario);
+    width: 500px;
+    img {
+        float: left;
+        margin-right: 1rem;
+        border-radius: 5px;
+        }
+    padding: 1rem;
+    margin: 1rem;
+
+    }
+
+div.resgate-Estrela  {  
+    background-color: var(--fundo-secundario);
+    width: 500px;
+    img {
+        float: left;
+        margin-right: 1rem;
+        border-radius: 5px;
+    }
+    padding: 1rem;
+    margin: 1rem;
+    }
+
+div.resgate-Dudu  {
+    background-color: var(--fundo-secundario);
+    width: 500px;
+    img {
+        float: left;
+        margin-right: 1rem;
+        border-radius: 5px;
+    }
+    padding: 1rem;
+    margin: 1rem;
+
+    }
+
+    footer {
+    background-color: var(--detalhes);
+    padding: 1rem;
+    text-align: center;
+    color: var(--texto-claro);
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+footer nav ul li a {
+    color: var(--texto-claro);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.descricao-projeto-adocao-com-amor, .descricao-projeto-pet-resgate, .descricao-projeto-lar-temporario {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    padding-left: 1rem;
+    margin: 20px 10px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--botoes);
+    color: var(--texto-claro);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.botao:hover {
+    background-color: var(--detalhes);
+}
